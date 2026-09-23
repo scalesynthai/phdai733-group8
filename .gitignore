@@ -1,0 +1,22 @@
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+
+# Large or generated data (keep the small source CSV tracked)
+*.parquet
+*.xlsx
+!data/heart.csv
