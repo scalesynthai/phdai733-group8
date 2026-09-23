@@ -2,7 +2,7 @@
 
 Course project repository for *Python Application for Data Analytics in AI*.
 
-**Team:** Subba Taniparti · Harini Mamidala · Christian Gaston · Naveen Vishal
+**Team:** Subba Taniparti · Harini Mamidala · Christian Gaston · Naveen Vishal Bellary
 **Instructor:** Dr. Karriem Perry
 
 ## Dataset
