@@ -35,7 +35,7 @@ DECISIONS.md   log of decisions and who made them
 |---|---|---|
 | Problem Definition + Real-World Application | 25% | TBD |
 | Dataset Exploration + Ethics & Impact | 25% | TBD |
-| Model Development + Optimization & Evaluation | 30% | TBD |
+| Model Development + Optimization & Evaluation | 30% | Subba Taniparti |
 | Teamwork & Documentation + Writing & Structure | 20% | TBD |
 
 ## Working agreement
