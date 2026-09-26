@@ -20,3 +20,7 @@ Thumbs.db
 *.parquet
 *.xlsx
 !data/heart.csv
+
+# Temporary files
+~$*.docx
+*.tmp

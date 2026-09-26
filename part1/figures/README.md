@@ -1,6 +1,6 @@
 # Part 1 Figures & Visual Artifacts
 
-This directory contains the publication-quality exported figures embedded as Appendix Figures A1–A3 in the final written report deliverable (`part1/report/Group8_Part1_Report_FINAL.docx`).
+This directory contains the publication-quality exported figures embedded as Appendix Figures A1–A3 in the final written report deliverable (`part1/report/Group8_Part1_Report.docx`).
 
 ---
 
