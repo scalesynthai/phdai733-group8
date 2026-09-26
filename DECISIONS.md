@@ -44,5 +44,7 @@ This decision log serves as the primary auditable record of the research process
 - **2026-09-24 — Written Report Deliverable Refinement (Draft v3):** Subba modified Draft v2, integrated final model evaluation figures, updated methodology descriptions to Draft v3, and transmitted to Christian for editorial review and input — Subba & Christian
 - **2026-09-25 — Ethics & Teamwork Collaboration Documentation Delivery:** Christian authored and delivered the finalized written sections for Ethics & Impact (demographic fairness audit, subgroup recall disparity analysis) and Teamwork Collaboration Process for integration into the report deliverable — Christian; shared with team
 - **2026-09-25 — Final Report & Codebase Consolidation:** Finalized submission artifacts; audited and corrected label polarity in exploratory notebooks, standardized master analysis notebook (`Group8_Part1_Analysis.ipynb`), archived superseded report drafts, and designated `Group8_Part1_Report_FINAL.docx` as the authoritative report deliverable — Team consensus
+- **2026-09-25 — Version Control Attribution Note:** The team drafted collaboratively in a shared Google Colab notebook rather than committing individually. Subba Taniparti synchronised that work to GitHub, so the commit history attributes to a single account and does not reflect individual contribution. The role assignments recorded above and Section 4 of the report are the authoritative record of who did what; the commit log reflects the synchronisation mechanism only — Team consensus
+
 
 

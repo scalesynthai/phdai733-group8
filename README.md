@@ -115,8 +115,8 @@ phdai733-group8/
 
 ## 6. Collaboration Standards & Governance
 
-- **Modular Notebook Architecture:** Independent exploratory notebooks are developed in `part1/notebooks/` before merging into master analysis pipelines to ensure commit clarity and avoid merge conflicts.
-- **Output Sanitization:** Jupyter output metadata and cell outputs are cleared prior to commits or managed via `nbstripout`.
+- **Shared Drafting Workflow:** The team drafted collaboratively in a shared Google Colab notebook, which was then synchronised to this repository by one member. This avoided the merge conflicts that concurrent Jupyter edits produce, at the cost of a commit history that records the synchronisation rather than individual authorship. See the attribution note in [DECISIONS.md](DECISIONS.md).
+- **Output Retention:** Notebook outputs are retained in committed files so that reported results are verifiable directly from the repository. Output stripping was disabled for this reason.
 - **Traceable Decision Logging:** All experimental design pivots, baseline departures, and technical trade-offs are logged chronologically in [DECISIONS.md](DECISIONS.md) to provide verifiable evidence of collaborative research governance.
 
 ---
