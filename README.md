@@ -11,7 +11,7 @@
 - **Subba Taniparti**
 - **Harini Mamidala**
 - **Christian Gaston**
-- **Naveen Vishal Bellary**
+- **Bellary Naveen Vishal**
 
 ---
 
@@ -20,9 +20,10 @@
 | Research Artifact | Scope & Methodological Focus | Direct Access |
 |---|---|---|
 | **Master Analysis & Modeling Pipeline** | End-to-end clinical pipeline: label validation, leakage-free modeling, 30-split stability, & fairness audit | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/scalesynthai/phdai733-group8/blob/main/part1/notebooks/Group8_Part1_Heart_Disease_Final_Analysis.ipynb) |
-| **Exploratory Data Analysis (PR #2)** | In-depth EDA, univariate/bivariate profiling, and clinical distributions (Naveen Vishal) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/scalesynthai/phdai733-group8/blob/main/part1/notebooks/Bellary_Naveen_Vishal_Data_Exploration.ipynb) |
-| **Model Development & CV Tuning** | Pipeline architecture, GridSearchCV tuning, and 30-iteration Monte Carlo CV (Subba) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/scalesynthai/phdai733-group8/blob/main/part1/notebooks/Subba_Taniparti_Model_Development.ipynb) |
-| **Dataset Selection & Evaluation (PR #1)** | Rubric scoring and multi-dataset comparison analysis (Naveen Vishal & Subba) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/scalesynthai/phdai733-group8/blob/main/part1/notebooks/Group8_Project_1_Data_loading.ipynb) |
+| **Exploratory Data Analysis (PR #2)** | In-depth EDA, univariate/bivariate profiling, and clinical distributions (Bellary Naveen Vishal) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/scalesynthai/phdai733-group8/blob/main/part1/notebooks/Bellary_Naveen_Vishal_Data_Exploration.ipynb) |
+| **Preprocessing & Visualization** | Data profiling, categorical encoding, and distribution visualisations (Harini Mamidala) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/scalesynthai/phdai733-group8/blob/main/part1/notebooks/Harini_Mamidala_Preprocessing_Visualization.ipynb) |
+| **Model Development & CV Tuning** | Pipeline architecture, GridSearchCV tuning, and 30-iteration Monte Carlo CV (Subba Taniparti) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/scalesynthai/phdai733-group8/blob/main/part1/notebooks/Subba_Taniparti_Model_Development.ipynb) |
+| **Dataset Selection & Evaluation (PR #1)** | Rubric scoring and multi-dataset comparison analysis (Bellary Naveen Vishal & Subba Taniparti) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/scalesynthai/phdai733-group8/blob/main/part1/notebooks/Group8_Project_1_Data_loading.ipynb) |
 
 ---
 
@@ -80,6 +81,7 @@ phdai733-group8/
 │   │   ├── Group8_Part1_Heart_Disease_Final_Analysis.ipynb  # Master clinical modeling & fairness pipeline
 │   │   ├── Group8_Part1_Analysis.ipynb                      # Baseline & exploratory analysis
 │   │   ├── Bellary_Naveen_Vishal_Data_Exploration.ipynb     # EDA & distribution analysis (PR #2)
+│   │   ├── Harini_Mamidala_Preprocessing_Visualization.ipynb # Preprocessing & visualization
 │   │   ├── Subba_Taniparti_Model_Development.ipynb          # Model pipeline & CV experiments
 │   │   └── Group8_Project_1_Data_loading.ipynb             # Candidate dataset evaluation (PR #1)
 │   └── report/
