@@ -19,10 +19,10 @@
 
 | Research Artifact | Scope & Methodological Focus | Direct Access |
 |---|---|---|
-| **Master Analysis & Modeling Pipeline** | End-to-end clinical pipeline: label validation, leakage-free modeling, 30-split stability, & fairness audit | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/scalesynthai/phdai733-group8/blob/main/part1/notebooks/Group8_Part1_Final_Analysis.ipynb) |
+| **Master Analysis & Modeling Pipeline** | End-to-end clinical pipeline: label validation, leakage-free modeling, 30-split stability, & fairness audit | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/scalesynthai/phdai733-group8/blob/main/part1/notebooks/Group8_Part1_Analysis.ipynb) |
 | **Exploratory Data Analysis (PR #2)** | In-depth EDA, univariate/bivariate profiling, and clinical distributions (Naveen Vishal) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/scalesynthai/phdai733-group8/blob/main/part1/notebooks/Bellary_Naveen_Vishal_Data_Exploration.ipynb) |
 | **Model Development & CV Tuning** | Pipeline architecture, GridSearchCV tuning, and 30-iteration Monte Carlo CV (Subba) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/scalesynthai/phdai733-group8/blob/main/part1/notebooks/Subba_Taniparti_Model_Development.ipynb) |
-| **Dataset Selection & Evaluation (PR #1)** | Rubric scoring and multi-dataset comparison analysis (Naveen Vishal & Subba) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/scalesynthai/phdai733-group8/blob/main/part1/notebooks/Gropup_Project_1.ipynb) |
+| **Dataset Selection & Evaluation (PR #1)** | Rubric scoring and multi-dataset comparison analysis (Naveen Vishal & Subba) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/scalesynthai/phdai733-group8/blob/main/part1/notebooks/Group8_Project_1_Data_loading.ipynb) |
 
 ---
 
@@ -74,13 +74,17 @@ phdai733-group8/
 │   ├── README.md       # Comprehensive clinical data dictionary and metadata
 │   └── heart.csv       # Local fallback dataset copy
 ├── part1/
-│   ├── figures/        # High-resolution exported figures for written report (Figs 1–5)
+│   ├── figures/        # High-resolution exported figures (Appendix Figs A1–A3)
+│   │   └── unused/     # Pruned exploratory figures (Figs 2 & 4)
 │   ├── notebooks/      # Modular research and individual contribution notebooks
-│   │   ├── Group8_Part1_Final_Analysis.ipynb          # Master clinical modeling & fairness pipeline
+│   │   ├── Group8_Part1_Analysis.ipynb                # Master clinical modeling & fairness pipeline
 │   │   ├── Bellary_Naveen_Vishal_Data_Exploration.ipynb  # EDA & distribution analysis (PR #2)
 │   │   ├── Subba_Taniparti_Model_Development.ipynb     # Model pipeline & CV experiments
-│   │   └── Gropup_Project_1.ipynb                     # Candidate dataset evaluation (PR #1)
-│   └── report/         # Written report drafts (Draft 1, Draft 2, Draft 3)
+│   │   ├── Group8_Project_1_Data_loading.ipynb        # Candidate dataset evaluation (PR #1)
+│   │   └── archive/                                   # Archived duplicate/intermediate notebooks
+│   └── report/
+│       ├── Group8_Part1_Report_FINAL.docx             # Final consolidated submission deliverable
+│       └── drafts/                                    # Archived report iterations (Drafts 1–3)
 └── part2/              # Reserved for Part 2 deliverables
 ```
 
