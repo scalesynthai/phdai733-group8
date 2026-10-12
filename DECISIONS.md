@@ -54,6 +54,7 @@ This decision log serves as the primary auditable record of the research process
 - **2026-10-05 — Part 2 Section Allocation:** Divided work across the eight rubric criteria rather than the five brief sections, since Problem Definition, Dataset Exploration, and Teamwork have no named section in the Part 2 brief — Team consensus
 - **2026-10-06 — Nested Cross-Validation Caveat:** Noted that the nested evaluation used the full dataset including the held-out test patients, so the later test-set result is not fully independent of model selection; recorded as a limitation rather than corrected, given the timeline — Subba
 - **2026-10-06 — Threshold Selection Caveat:** Recorded that cost-optimal thresholds were selected using test outcomes, making those results exploratory; proper practice is selection on training folds with evaluation on untouched data — Subba
+- **2026-10-09 — Part 2 Ethics & Teamwork Drafts:** Added the Ethical Considerations section, grounding the group-threshold result in cardiology practice (sex-specific troponin limits; Thygesen et al., 2018; Shah et al., 2015) and the evidence that such limits did not by themselves improve outcomes (Lee et al., 2019); added Figure 2 with an interpretive caption, the Teamwork and Documentation section, and the corresponding references (DOIs verified against Crossref) — Bellary Naveen Vishal
 
 ---
 
