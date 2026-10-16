@@ -19,29 +19,32 @@ Due: Friday 16 October 2026
 Exported from the analysis notebook to `part2/figures/`. Each needs an APA caption with an
 interpretive note stating what the reader should conclude, not a restatement of the title.
 
-| File | Supports |
-| --- | --- |
-| `fig1_calibration.png` | Section 2, whether predicted probabilities are trustworthy |
-| `fig2_threshold_stability.png` | Section 3, the group-specific threshold is unstable |
-| `fig3_confusion.png` | Section 2, the threshold trade in patient counts |
+These are the final committed figures:
+
+| File | Appears as | Supports |
+| --- | --- | --- |
+| `p2_fig1_calibration.png` | Figure A1 | Final Model Evaluation, whether predicted probabilities are trustworthy |
+| `p2_fig3_confusion.png` | Figure A2 | Final Model Evaluation, the threshold trade in patient counts |
+| `fig2_threshold_stability.png` | Figure A3 | Ethical Considerations, the group-specific threshold is unstable |
 
 ## References to carry forward from Part 1
 
-Part 1 cited 21 sources. The following are directly relevant to Part 2 claims and should be copied
-from `part1/report/Group8_Part1_Report.docx` rather than re-found:
+Part 1 cited 21 sources. The following were carried forward from `part1/report/Group8_Part1_Report.docx` to the final 8-entry reference list:
 
 - Janosi et al. (1989) — dataset provenance
 - Pedregosa et al. (2011) — scikit-learn
 - Rajkomar et al. (2018) — why protected attributes are retained for evaluation
-- Obermeyer et al. (2019) — algorithms inheriting historical patterns
-- Mosca et al. (2011) — sex differences in cardiovascular care
 - Chen et al. (2019) — deployment oversight
+
+Considered and not used:
+- Obermeyer et al. (2019) — algorithms inheriting historical patterns (considered and not used)
+- Mosca et al. (2011) — sex differences in cardiovascular care (considered and not used)
 
 ## Before submission
 
-- [ ] Every number in the report matches the notebook
-- [ ] All in-text citations appear in the reference list and vice versa
-- [ ] Zero em-dashes (search for the character)
-- [ ] Bounded statistics have no leading zero; values that can exceed 1 keep theirs
-- [ ] Figures have interpretive captions
-- [ ] Notebook committed with outputs intact
+- [x] Every number in the report matches the notebook
+- [x] All in-text citations appear in the reference list and vice versa
+- [x] Zero em-dashes (search for the character)
+- [x] Bounded statistics have no leading zero; values that can exceed 1 keep theirs
+- [x] Figures have interpretive captions
+- [x] Notebook committed with outputs intact
