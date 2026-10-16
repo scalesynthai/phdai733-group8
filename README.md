@@ -87,7 +87,18 @@ phdai733-group8/
 │   └── report/
 │       ├── Group8_Part1_Report.docx                         # Final consolidated submission deliverable
 │       └── drafts/                                          # Archived report iterations (Drafts 1–3)
-└── part2/              # Reserved for Part 2 deliverables
+└── part2/              # Part 2 deliverables: model optimization, real-world impact, & fairness
+    ├── figures/        # Publication-ready exported figures (Appendix Figs A1–A3)
+    │   ├── p2_fig1_calibration.png         # Calibration curves & predicted probabilities (Fig A1)
+    │   ├── p2_fig3_confusion.png           # Confusion matrices at default (.50) & cost-optimal (.16) thresholds (Fig A2)
+    │   └── fig2_threshold_stability.png    # 30-split equalising threshold distribution & stability (Fig A3)
+    ├── notebooks/      # Modular research and analysis notebooks
+    │   ├── Group8_Part2_Analysis.ipynb     # Master analysis: nested CV, calibration, cost-thresholds, & fairness audit
+    │   └── Harini_Part2_Evaluation_Figures.ipynb # Standalone evaluation figures & metric visualization
+    └── report/
+        ├── Group8_Part2_Report_Final.docx  # Final consolidated submission deliverable (APA 7 formatted)
+        ├── README.md                       # Deliverable documentation, section allocation, & submission checklist
+        └── drafts/                         # Archived section drafts and contribution provenance
 ```
 
 ---
@@ -111,12 +122,15 @@ Model optimization, real-world impact, and ethical evaluation.
 
 ```
 part2/
-    notebooks/
-        Group8_Part2_Analysis.ipynb, executed with outputs
     figures/
-        exported PNGs for the written report
+        p2_fig1_calibration.png, p2_fig3_confusion.png, fig2_threshold_stability.png
+    notebooks/
+        Group8_Part2_Analysis.ipynb, executed with outputs intact
+        Harini_Part2_Evaluation_Figures.ipynb, standalone evaluation figures
     report/
-        written deliverable and section ownership
+        Group8_Part2_Report_Final.docx, final written deliverable (APA 7)
+        README.md, section ownership, figure mapping, & verification checklist
+        drafts/, contributor section drafts and provenance
 ```
 
 Analysis covers nested cross-validation, probability calibration, cost-based threshold selection,
